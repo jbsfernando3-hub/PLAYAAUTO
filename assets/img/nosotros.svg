@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="nb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A1D21"/><stop offset="1" stop-color="#0B0D0F"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#nb)"/>
+  <circle cx="150" cy="120" r="180" fill="#EB0A1E" opacity=".14"/>
+  <circle cx="690" cy="520" r="140" fill="#EB0A1E" opacity=".1"/>
+  <!-- person -->
+  <circle cx="400" cy="230" r="72" fill="#3A3F46"/>
+  <path d="M256 600c0-88 65-150 144-150s144 62 144 150Z" fill="#2A2E33"/>
+  <path d="M400 158a72 72 0 0 1 66 44 88 88 0 0 0-132 0 72 72 0 0 1 66-44Z" fill="#1A1D21" opacity=".85"/>
+  <circle cx="378" cy="228" r="8" fill="#ECEEF0"/><circle cx="422" cy="228" r="8" fill="#ECEEF0"/>
+  <path d="M378 262c14 10 30 10 44 0" stroke="#ECEEF0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <text x="400" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#fff">NÚÑEZ</text>
+  <text x="400" y="504" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9AA1A8">Propietario · El Playa de Vehículos</text>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#EB0A1E" letter-spacing="3">VILLARRICA · PARAGUAY</text>
+</svg>

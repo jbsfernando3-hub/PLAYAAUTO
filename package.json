@@ -1,0 +1,19 @@
+{
+  "name": "el-playa-vehiculos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Catalogo web de El Playa de Vehiculos - Nunez, Villarrica, Paraguay",
+  "scripts": {
+    "start": "npx --yes serve . -l 3000",
+    "dev": "npx --yes serve . -l 3000"
+  },
+  "keywords": [
+    "autos",
+    "toyota",
+    "paraguay",
+    "catalogo",
+    "agencia"
+  ],
+  "author": "El Playa de Vehiculos",
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+# Dependencias de Node (no se usan en el sitio, solo para el servidor local)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales
+*.tmp
+*.log
+.cache/
