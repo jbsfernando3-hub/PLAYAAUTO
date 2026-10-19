@@ -95,5 +95,23 @@ window.CREDITOS = [
     "licencia": "CC BY-SA 4.0",
     "licenciaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "fuente": "https://commons.wikimedia.org/wiki/File%3AHYUNDAI_H-1_(TQ)_China.jpg"
+  },
+  {
+    "archivo": "assets/img/hero.jpg",
+    "vehiculo": "Portada - Toyota Corolla Cross",
+    "titulo": "Toyota Corolla Cross Hybrid 1X7A6357.jpg",
+    "autor": "Alexander Migl",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_Hybrid_1X7A6357.jpg"
+  },
+  {
+    "archivo": "assets/img/nosotros.jpg",
+    "vehiculo": "Showroom Toyota (seccion Nosotros)",
+    "titulo": "Dülmen, Auto Bertels, Toyota GR Supra -- 2021 -- 9552-4.jpg",
+    "autor": "Dietmar Rabich",
+    "licencia": "CC BY-SA 4.0",
+    "licenciaUrl": "",
+    "fuente": "https://commons.wikimedia.org/wiki/File:Dülmen,_Auto_Bertels,_Toyota_GR_Supra_--_2021_--_9552-4.jpg"
   }
 ];

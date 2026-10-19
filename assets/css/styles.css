@@ -134,7 +134,7 @@ svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-l
 .hero__stats span{font-size:.8rem;color:var(--gris-50);text-transform:uppercase;letter-spacing:.08em;margin-top:5px}
 
 .hero__card{position:relative;background:#fff;border-radius:var(--radio-lg);padding:14px;box-shadow:var(--sombra-lg)}
-.hero__img{width:100%;border-radius:16px;background:linear-gradient(135deg,#F2F3F5,#E4E7EA);aspect-ratio:4/3;object-fit:cover}
+.hero__img{width:100%;height:auto;border-radius:16px;background:linear-gradient(135deg,#F2F3F5,#E4E7EA);aspect-ratio:16/10;object-fit:cover}
 .hero__card-foot{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 8px 6px}
 .hero__card-foot div{display:flex;flex-direction:column}
 .hero__card-foot strong{font-family:var(--fuente-titulo);font-size:1rem}
@@ -265,7 +265,7 @@ input[type="range"]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;b
 /* ---------- Nosotros ---------- */
 .about{display:grid;grid-template-columns:.9fr 1.1fr;gap:52px;align-items:center}
 .about__media{position:relative}
-.about__img{width:100%;border-radius:var(--radio-lg);background:var(--gris-10)}
+.about__img{width:100%;height:auto;border-radius:var(--radio-lg);background:var(--gris-10);aspect-ratio:4/3;object-fit:cover}
 .about__stamp{
   position:absolute;right:-14px;bottom:-18px;background:var(--rojo);color:#fff;padding:18px 24px;border-radius:16px;
   box-shadow:0 14px 34px rgba(235,10,30,.36);display:flex;flex-direction:column;transform:rotate(-3deg)}

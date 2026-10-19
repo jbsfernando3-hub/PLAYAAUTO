@@ -18,9 +18,9 @@ el-playa-vehiculos/
 │   ├── css/styles.css         ← estilos (colores, tipografía, responsive)
 │   ├── js/main.js             ← filtros, buscador, modal, WhatsApp, favoritos
 │   └── img/
-│       ├── logo.svg
-│       ├── hero.svg
-│       ├── nosotros.svg
+│       ├── logo.svg           ← logo de la marca (vector, se ve nítido en cualquier tamaño)
+│       ├── hero.jpg           ← foto de portada
+│       ├── nosotros.jpg       ← foto de la sección "Nosotros"
 │       └── vehiculos/         ← ★ acá van las fotos reales de cada auto (jpg)
 ├── .gitignore
 ├── .nojekyll
@@ -60,14 +60,22 @@ Todo el inventario vive en **`data/vehiculos.js`**. Copiá un bloque, cambiá lo
 
 ### 📸 Poner las fotos reales
 
-**Ya hay fotos reales de muestra** de los 10 modelos, descargadas de Wikimedia Commons con
-licencias libres de uso comercial (optimizadas a 1200×825 px, ~2 MB en total).
+**Todo el sitio ya usa fotos reales**: portada, sección "Nosotros" y los 10 vehículos del
+catálogo. Las imágenes vienen de Wikimedia Commons con licencias libres de uso comercial
+(optimizadas a 1200 px de ancho, ~2,4 MB en total).
 
 Para reemplazarlas por las fotos de tus vehículos:
 
 1. Guardá la foto en **`assets/img/vehiculos/`** con el nombre del `id`, por ejemplo `corolla-xei-2021.jpg`.
 2. Cambiá el campo `imagen` a `assets/img/vehiculos/corolla-xei-2021.jpg` (con la extensión real: `.jpg`, `.png` o `.webp`).
 3. **Recomendado:** fotos horizontales de al menos 1200 px de ancho, ratio 16:11 (la web recorta al centro).
+
+Para cambiar la **portada** o la foto de **Nosotros**, reemplazá los archivos:
+
+| Archivo | Dónde se usa | Tamaño |
+|---|---|---|
+| `assets/img/hero.jpg` | Portada (arriba) | 1200×750 (16:10) |
+| `assets/img/nosotros.jpg` | Sección "Nosotros" | 1100×825 (4:3) |
 
 > Si borrás una foto y queda la imagen rota, la web muestra automáticamente un ícono de
 > vehículo con el nombre del modelo (no se ve el ícono de "imagen rota").
