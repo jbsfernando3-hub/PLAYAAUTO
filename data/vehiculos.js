@@ -57,7 +57,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "6 meses de garantía de motor",
       tags: ["Toyota", "Sedán", "Automática"],
-      imagen: "assets/img/vehiculos/corolla-xei-2021.svg",
+      imagen: "assets/img/vehiculos/corolla-xei-2021.jpg",
       descripcion:
         "Toyota Corolla 1.8 XEI del 2021, un solo dueño y con todos los servicios al día. Motor de 132 CV, cámara de retroceso, sensores de estacionamiento y pantalla multimedia. Pintura e interior impecables, neumáticos con muy poco uso. Listo para entrega inmediata."
     },
@@ -79,7 +79,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "12 meses de garantía de motor",
       tags: ["Toyota", "SUV", "Híbrido", "Automática"],
-      imagen: "assets/img/vehiculos/corolla-cross-hybrid-2023.svg",
+      imagen: "assets/img/vehiculos/corolla-cross-hybrid-2023.jpg",
       descripcion:
         "Toyota Corolla Cross Hybrid 2023, la combinación ideal entre espacio y economía. Sistema híbrido con mayor rendimiento y menor consumo de combustible, 7 airbags, cámara de 360 grados y techo solar. Un solo dueño, kilometraje de trabajo y sin choques."
     },
@@ -101,7 +101,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "3 meses de garantía",
       tags: ["Toyota", "Camioneta", "4x4", "Diésel"],
-      imagen: "assets/img/vehiculos/hilux-srv-2021.svg",
+      imagen: "assets/img/vehiculos/hilux-srv-2021.jpg",
       descripcion:
         "Toyota Hilux 2.0 SRV 4x4 2021, la pickup más confiable del mercado. Tracción 4x4, motor diésel económico, llantas de aleación, barra de techo y portón con abertura lateral. Ideal para trabajo en campo y obra. Documentación al día."
     },
@@ -123,7 +123,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "12 meses de garantía de motor",
       tags: ["Toyota", "Camioneta", "4x4", "Diésel", "Automática"],
-      imagen: "assets/img/vehiculos/hilux-srx-2023.svg",
+      imagen: "assets/img/vehiculos/hilux-srx-2023.jpg",
       descripcion:
         "Toyota Hilux 2.8 SRX 2023, la versión más completa del catálogo. Automática, control de estabilidad, sensores de estacionamento, diferencial y cámaras de asistencia a la conducción. Prácticamente 0 km de uso particular."
     },
@@ -145,7 +145,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "3 meses de garantía",
       tags: ["Toyota", "Hatchback", "Automática"],
-      imagen: "assets/img/vehiculos/yaris-xls-2020.svg",
+      imagen: "assets/img/vehiculos/yaris-xls-2020.jpg",
       descripcion:
         "Toyota Yaris 1.3 XLS 2020, el auto más compacto y práctico para la ciudad. Fácil de estacionar, bajo consumo y aire acondicionado. Excelente opción para uso diario y como primer vehículo."
     },
@@ -167,7 +167,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "2 meses de garantía",
       tags: ["Toyota", "Sedán", "Manual", "Económico"],
-      imagen: "assets/img/vehiculos/etios-xls-2019.svg",
+      imagen: "assets/img/vehiculos/etios-xls-2019.jpg",
       descripcion:
         "Toyota Etios 1.5 XLS 2019, la mejor relación precio-calidad del catálogo. Motor 1.5 de 106 CV que rinde más de lo que cuesta, caja manual de 5 velocidades, aire acondicionado y radio. Ideal para ciudad."
     },
@@ -189,7 +189,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "12 meses de garantía de motor",
       tags: ["Toyota", "SUV", "4x4", "Automática"],
-      imagen: "assets/img/vehiculos/rav4-xle-2022.svg",
+      imagen: "assets/img/vehiculos/rav4-xle-2022.jpg",
       descripcion:
         "Toyota RAV4 XLE 4x4 2022, el SUV más vendido del mundo. Tracción integral, motor de 2.0L con 152 CV, techo panorámico, cámara de 360 grados y llave inteligente. Un solo dueño, sin choques, historial completo de servicio."
     },
@@ -211,7 +211,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "6 meses de garantía de motor",
       tags: ["Toyota", "SUV", "4x4", "Diésel", "7 plazas"],
-      imagen: "assets/img/vehiculos/prado-vx-2021.svg",
+      imagen: "assets/img/vehiculos/prado-vx-2021.jpg",
       descripcion:
         "Toyota Land Cruiser Prado VX 2021, 7 plazas, diésel y 4x4. El SUV más robusto del mercado, perfecto para la familia y para el campo. Techo solar, cuero, tercera fila, multimedia y control de estabilidad. Revisión general recién realizada."
     },
@@ -233,7 +233,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "3 meses de garantía",
       tags: ["Volkswagen", "SUV", "Automática"],
-      imagen: "assets/img/vehiculos/volkswagen-tcross-2021.svg",
+      imagen: "assets/img/vehiculos/volkswagen-tcross-2021.jpg",
       descripcion:
         "Volkswagen T-Cross 1.4 TSI 2021, un solo dueño y con 4x4. Motor turbo de 150 CV, brillante consumo de combustible, pantalla de 8 pulgadas, Apple CarPlay y sensores de Reversa. Revisado y con todos los servicios al día."
     },
@@ -255,7 +255,7 @@ window.INVENTARIO = {
       financiamiento: true,
       garantia: "3 meses de garantía",
       tags: ["Hyundai", "Camioneta", "Furgón", "Diésel", "Manual"],
-      imagen: "assets/img/vehiculos/hyundai-h100-2020.svg",
+      imagen: "assets/img/vehiculos/hyundai-h100-2020.jpg",
       descripcion:
         "Hyundai H100 1.4 2020, furgón diésel ideal para reparto y comercio. Amplio espacio de carga, bajo consumo, aire acondicionado y radio. Documentación al día y mantenimiento al día, lista para trabajar."
     }

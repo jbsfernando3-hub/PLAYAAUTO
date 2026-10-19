@@ -12,7 +12,8 @@ Sitio estático (HTML + CSS + JavaScript puro), **responsive** para PC y celular
 el-playa-vehiculos/
 ├── index.html                 ← página principal (todo el contenido fijo)
 ├── data/
-│   └── vehiculos.js           ← ★ EDITÁ ACÁ: tu inventario y datos de contacto
+│   ├── vehiculos.js           ← ★ EDITÁ ACÁ: tu inventario y datos de contacto
+│   └── creditos-fotos.js      ← atribución de las fotos de muestra (borrar al usar tus fotos)
 ├── assets/
 │   ├── css/styles.css         ← estilos (colores, tipografía, responsive)
 │   ├── js/main.js             ← filtros, buscador, modal, WhatsApp, favoritos
@@ -20,7 +21,7 @@ el-playa-vehiculos/
 │       ├── logo.svg
 │       ├── hero.svg
 │       ├── nosotros.svg
-│       └── vehiculos/         ← ★ acá van las fotos reales de cada auto
+│       └── vehiculos/         ← ★ acá van las fotos reales de cada auto (jpg)
 ├── .gitignore
 ├── .nojekyll
 ├── package.json
@@ -59,11 +60,31 @@ Todo el inventario vive en **`data/vehiculos.js`**. Copiá un bloque, cambiá lo
 
 ### 📸 Poner las fotos reales
 
+**Ya hay fotos reales de muestra** de los 10 modelos, descargadas de Wikimedia Commons con
+licencias libres de uso comercial (optimizadas a 1200×825 px, ~2 MB en total).
+
+Para reemplazarlas por las fotos de tus vehículos:
+
 1. Guardá la foto en **`assets/img/vehiculos/`** con el nombre del `id`, por ejemplo `corolla-xei-2021.jpg`.
 2. Cambiá el campo `imagen` a `assets/img/vehiculos/corolla-xei-2021.jpg` (con la extensión real: `.jpg`, `.png` o `.webp`).
-3. **Recomendado:** fotos horizontales de al menos 1200 px de ancho.
+3. **Recomendado:** fotos horizontales de al menos 1200 px de ancho, ratio 16:11 (la web recorta al centro).
 
-Los `.svg` que están ahora son solo marcas de agua de ejemplo — reemplazalos por fotos reales.
+> Si borrás una foto y queda la imagen rota, la web muestra automáticamente un ícono de
+> vehículo con el nombre del modelo (no se ve el ícono de "imagen rota").
+
+### 📄 Créditos de fotos (obligatorio por las licencias)
+
+Las fotos de muestra son **CC BY / CC BY-SA**, que **exigen atribución**. Por eso el sitio tiene
+una sección **"Créditos de las fotos"** al final de la página, generada desde
+`data/creditos-fotos.js`.
+
+**Cuando pongas tus propias fotos**, vaciá ese archivo para quitar la sección:
+
+```js
+window.CREDITOS = [];
+```
+
+El sitio detecta el array vacío y oculta la sección automáticamente.
 
 ---
 
@@ -182,6 +203,7 @@ Cambiá `--rojo` y toda la web toma el color nuevo.
 - Favoritos guardados en el navegador (localStorage)
 - Mapa de Google con la ubicación
 - Secciones de servicios, nosotros y contacto
+- Créditos de las fotos con autor y licencia (requisito de las licencias CC BY-SA)
 - Carga rápida, sin dependencias externas (solo fuentes de Google)
 
 ---

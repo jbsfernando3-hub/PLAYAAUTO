@@ -436,6 +436,29 @@
   }
 
   /* ---------------------------------------------------------------
+     Créditos de las fotos
+  --------------------------------------------------------------- */
+  function renderCreditos() {
+    var list = $('#creditosList');
+    if (!list) return;
+    var data = window.CREDITOS || [];
+    if (!data.length) { list.parentNode.style.display = 'none'; return; }
+    list.innerHTML = data.map(function (c) {
+      return '' +
+        '<li class="creditos__item">' +
+          '<img src="' + esc(c.archivo) + '" alt="" loading="lazy" onerror="this.style.visibility=\'hidden\'">' +
+          '<div>' +
+            '<b>' + esc(c.vehiculo) + '</b>' +
+            '<span>Foto: ' + esc(c.autor) + '</span>' +
+            '<span>' + (c.licenciaUrl
+              ? '<a href="' + esc(c.licenciaUrl) + '" target="_blank" rel="noopener nofollow">' + esc(c.licencia) + '</a>'
+              : esc(c.licencia)) + ' · <a href="' + esc(c.fuente) + '" target="_blank" rel="noopener nofollow">Wikimedia Commons</a></span>' +
+          '</div>' +
+        '</li>';
+    }).join('');
+  }
+
+  /* ---------------------------------------------------------------
      Init
   --------------------------------------------------------------- */
   function init() {
@@ -444,6 +467,7 @@
     setupFilters();
     renderGrid(VEH);
     renderDestacados();
+    renderCreditos();
     bindEvents();
     bindScroll();
   }
